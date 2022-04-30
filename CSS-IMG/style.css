@@ -40,7 +40,7 @@ body{
     height: 100%;
     background: url(IMG/fingerPrint_02.png);
     background-size: 300px;
-    animation: animate 4s ease-in-out infinite;
+    animation: animate 5s ease-in-out infinite;
 }
 @keyframes animate{
     0%, 100%
@@ -64,7 +64,7 @@ body{
     border-radius: 8px;
     filter: drop-shadow(0 0 20px #3fefef)  
             drop-shadow(0 0 60px #3fefef);
-    animation: animate_line 4s ease-in-out infinite;
+    animation: animate_line 5s ease-in-out infinite;
 }
 
 @keyframes animate_line{
@@ -86,7 +86,7 @@ body{
     color: #3fefef;
     filter: drop-shadow(0 0 20px #3fefef)  
             drop-shadow(0 0 60px #3fefef);
-    animation: animate_text 0.7s steps(1) infinite;
+    animation: animate_text 0.9s steps(1) infinite;
 }
 
 @keyframes animate_text{
